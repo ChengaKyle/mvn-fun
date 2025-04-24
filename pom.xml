@@ -19,7 +19,7 @@
         <configuration>
           <archive>
             <manifestEntries>
-              <Main-Class>com.mycompany.app.App</Main-Class> <!-- Ersetze dies durch deinen tatsächlichen Hauptklassen-Namen -->
+              <Main-Class>de.factorizer.App</Main-Class> <!-- Ersetze dies durch deinen tatsächlichen Hauptklassen-Namen -->
             </manifestEntries>
           </archive>
         </configuration>
