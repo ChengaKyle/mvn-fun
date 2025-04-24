@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany.app</groupId>
-  <artifactId>my-app</artifactId>
+  <artifactId>factorizer</artifactId> <!-- Geändert zu 'factorizer' -->
   <packaging>jar</packaging>
   <version>RELEASE-1.0.0</version> <!-- Version geändert -->
-  <name>my-app</name>
+  <name>factorizer</name> <!-- Geändert zu 'factorizer' -->
   <url>http://maven.apache.org</url>
 
-  <!-- Hinzufügen des maven-jar-plugin zur Konfiguration des Main-Class -->
   <build>
+    <finalName>factorizer-RELEASE-1.0.0</finalName> <!-- Name der erzeugten JAR-Datei -->
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -19,7 +19,7 @@
         <configuration>
           <archive>
             <manifestEntries>
-              <Main-Class>de.factorizer.App</Main-Class> <!-- Ersetze dies durch deinen tatsächlichen Hauptklassen-Namen -->
+              <Main-Class>de.factorizer.App</Main-Class> <!-- Hauptklasse -->
             </manifestEntries>
           </archive>
         </configuration>
